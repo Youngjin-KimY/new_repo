@@ -23,7 +23,9 @@
             <!--<p>Age + B = {{addToB()}}</p>-->
             <h1>Dynamic CSS</h1>
             <h2>Example</h2>
-            <div v-bind:class="{red:true,blue:true}"></div>
+            <div v-on:click="available=!available" v-bind:class="{available:available}">
+                <span>Ryu</span>
+            </div>
             <h2>Example 2</h2>
         </div>
         <script src="app.js"></script>

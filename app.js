@@ -1,9 +1,11 @@
 new Vue({
     el:"#vue-app",
     data:{
-        age:20,
-        a:0,
-        b:0
+        available: true,
+        nearby: false
+        // age:20,
+        // a:0,
+        // b:0
         // // x:0,
         // // y:0
         // name:'',
